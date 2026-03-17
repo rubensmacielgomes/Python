@@ -3,7 +3,8 @@ salario = float(input("Digite o seu salario: R$ "))
 anos = int(input("Quantos anos para pagar? "))
 meses = anos * 12
 prestacao = valor / meses
-if prestacao > salario * 0.3:
+(
     print("Infelizmente você não pode obter o empréstimo!")
-else:
-    print(f"Valor da prestação: R$ {prestacao:.2f}. Empréstimo OK!")
+    if prestacao > salario * 0.3
+    else print(f"Valor da prestação: R$ {prestacao:.2f}. Empréstimo OK!")
+)
