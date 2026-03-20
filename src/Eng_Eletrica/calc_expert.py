@@ -8,7 +8,7 @@ def obter_valor(frase):
 
 # Agora o seu programa fica MUITO mais curto:
 while True:
-    print("\n--- Calculadora Expert CMBRASILTEC ---")
+    print("\n--- Calculadora Expert ENGENHARIA ELÉTRICA ---")
     opcao = input("Escolha (V, R, I ou S para Sair): ").upper()
 
     if opcao == "S":
